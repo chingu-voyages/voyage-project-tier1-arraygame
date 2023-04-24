@@ -25,7 +25,7 @@ For example, if you roll a 2 and a 3 you would shade in a 2x3 array on the
 grid either vertically or horizontally. In this example, the array could be 
 either 2 rows by 3 columns or it could be 3 rows by 2 columns.
 
-If it turns out that there's no room on the grid for your array the player 
+If it turns out that there's no room on the grid for your array, the player 
 will forfeit their turn and wait until the next turn to try again.
 
 The game will end when one of the following conditions is reached:
@@ -33,7 +33,7 @@ The game will end when one of the following conditions is reached:
 1. A pre-defined period of time is reached. Whoever has the highest score wins.
 2. A player forfeits two consecutive turns. In this situation, 
 that player loses the game. 
-3. A player completely fills in their  grid. This will take longer than the first two options. Depending on the luck of the roll, players may end up forfeiting many turns.
+3. A player completely fills in their grid. This will take longer than the first two options. Depending on the luck of the roll, players may end up forfeiting many turns.
 
 ## General Instructions
 
@@ -44,7 +44,7 @@ manage your project following the _Agile Methodology_ defined in the
 [Voyage Handbook](https://chingucohorts.notion.site/Voyage-Guide-1e528dcbf1d241c9a93b4627f6f1c809).
 
 As you create this project make sure it meets all of the requirements, but once
-it reaches MVP start implementing the optional features or get creative and
+it reaches MVP, start implementing the optional features or get creative and
 extend it in ways we haven't envisioned. In other words, use the power of
 teamwork to make it distinctive and unique.
 
@@ -60,7 +60,7 @@ to work!
 
 - [ ] This is a purely frontend application. No backend is required. 
 - [ ] You may use any languages, tools, or libraries you prefer when designing and building this app. 
-- [ ] You may **_NOT_** use AI-base solution generators like GitHub Coilot.
+- [ ] You may **_NOT_** use AI-base solution generators like GitHub CoPilot.
 - [ ] Useful links and resources:
     - [The Array Game](https://www.whatdowedoallday.com/array-game/)
 
@@ -88,7 +88,7 @@ to work!
 - Game Controls
     -   [ ] User can see a button in the game control panel to start a new game, which updates the Leaderboard, clears the grid, and starts a new game.
     -   [ ] If the user tries to start a new game while one is in progress a modal alert will be displayed to confirm that the current game may be abandoned.
-    -   [ ] When a game is started the user will see button to roll the dice
+    -   [ ] When a game is started the user will see a button to roll the dice
     -   [ ] After rolling the dice a new roll will be blocked until the new 
     array has been marked on the grid by clicking squares in the grid
     -   [ ] The user will see a button to allow them to clear the grid and 
@@ -108,7 +108,7 @@ to work!
 
 ### Extras (Not Required)
 
--   [ ] Implement the game to allow human-to-human competition between 2 players or human-vs-computer competition.
+-   [ ]  Implement the game to allow human-to-human competition between 2 players or human-vs-computer competition.
 -   [ ]  Allow the user to choose the color to be used to fill in the grid
 -   [ ]  Maintain player metrics across sessions for the last 3 games that have been played
 -   [ ]  Allow the user to specify the dimensions of the grid 
