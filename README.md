@@ -14,7 +14,7 @@ The Array Game is designed to help early learners build and expand on their
 multiplication skill for the numbers 1-6. Players use a simple grid that
 visually represents the calculation.
 
-![The Array Game]()./assets/array-game-top.jpeg)
+![The Array Game](./assets/array-game-top.jpeg)
 
 The goal of this game is to help kids supplement what they are learning about
 multiplication with a fun activity they use for practice. 
