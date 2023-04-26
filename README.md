@@ -28,9 +28,9 @@ grid either vertically or horizontally. In this example, the array could be
 either 2 rows by 3 columns or it could be 3 rows by 2 columns.
 
 If it turns out that there's no room on the grid for your array, the player 
-will forfeit their turn and wait until the next turn to try again.
+can't update the grid and must wait until their next turn to roll again.
 
-The game will end when one of the following conditions is reached:
+The game will end when one of these conditions are reached:
 
 1. A pre-defined period of time is reached. Whoever has the highest score wins.
 2. A player forfeits two consecutive turns. In this situation, 
@@ -78,6 +78,7 @@ to work!
 -   User can see the game window with these components
     - Leaderboard showing the number of games the current player has won and lost
     - Game controls
+    - Game clock
     - A 10x10 grid the game is played on
 
 - Leaderboard
@@ -110,12 +111,16 @@ to work!
 
 ### Extras (Not Required)
 
--   [ ]  Implement the game to allow human-to-human competition between 2 players or human-vs-computer competition.
+-   [ ]  Implement the game to allow human-to-human competition between 2 
+players or human-vs-computer competition.
 -   [ ]  Allow the user to choose the color to be used to fill in the grid
--   [ ]  Maintain player metrics across sessions for the last 3 games that have been played
+-   [ ]  Maintain player metrics across sessions for the last 3 games that have 
+been played
 -   [ ]  Allow the user to specify the dimensions of the grid 
--   [ ]  The app must display a countdown timer showing time remaining, but the duration can be customized
+-   [ ]  Add a countdown timer showing time remaining in the game and create an
+input field to allow the user to set the starting number of minutes and seconds.
 -   [ ]  Animate the rolling of the dice
+-   [ ]  Play a sound to simulate the rolling dice
 -   [ ]  Support dark/light mode
 
 ## About Chingu
