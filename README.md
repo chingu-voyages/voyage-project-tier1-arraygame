@@ -78,7 +78,6 @@ to work!
 -   User can see the game window with these components
     - Leaderboard showing the number of games the current player has won and lost
     - Game controls
-    - Game clock
     - A 10x10 grid the game is played on
 
 - Leaderboard
