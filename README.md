@@ -93,6 +93,7 @@ to work!
     -   [ ] When a game is started the user will see a button to roll the dice
     -   [ ] After rolling the dice a new roll will be blocked until the new 
     array has been marked on the grid by clicking squares in the grid
+    -   [ ] User can see a the value of each dice after they are rolled
     -   [ ] The user will see a button to allow them to clear the grid and 
     to start refilling it using the values from the current roll. This allows
     the user to try different options.
@@ -120,6 +121,8 @@ been played
 input field to allow the user to set the starting number of minutes and seconds.
 -   [ ]  Animate the rolling of the dice
 -   [ ]  Play a sound to simulate the rolling dice
+-   [ ]  Add a graph to the leader board to show the number of times a number
+has been rolled.
 -   [ ]  Support dark/light mode
 
 ## About Chingu
